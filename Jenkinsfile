@@ -8,7 +8,7 @@ pipeline{
         stage('Stage1'){
             steps{
                     sh '''
-                        echo env
+                        env
                         echo I am at Stage1
                         echo ${ENV_URL}
                     '''
