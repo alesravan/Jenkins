@@ -6,10 +6,10 @@ pipeline{
     stages{
         stage('Stage1'){
             steps{
-                sh ```
-                    echo "I am at Stage1"
-                    echo ${ENV_URL}
-                ```
+                    sh ```
+                        echo I am at Stage1
+                        echo ${ENV_URL}
+                    ```
             }
         }
 
